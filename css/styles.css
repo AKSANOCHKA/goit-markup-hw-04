@@ -509,7 +509,14 @@ li {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-
+.icons-text {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
 
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -518,10 +525,7 @@ li {
 .container container-footer {
     max-width: 1158px;
     padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 120px; 
-    
-   
+    padding-right: 15px;   
 }
 
 .footer {
@@ -537,14 +541,11 @@ li {
   height: 80px;
   display: flex;
   align-items: center;
-  margin-right: 120px;
 }
 .footer-container {
   display: flex;
   align-items: flex-start;
   align-items: baseline;
-  /* Выровняет элементы по верхнему краю */
-  gap: 120px;
   /* Фиксированное расстояние между .container-footer и .styles-icons-footer */
   width: 1158px;
   padding: 0 15px;
@@ -557,13 +558,7 @@ li {
   top: 0;
 }
 
-.icons-text {
-  font-weight: 500;
-    font-size: 16px;
-letter-spacing: 0.02em;
-color: #fff;
-line-height: 1.5;
-}
+
  
 .footer-icon {
   width: 24px;
@@ -585,5 +580,7 @@ line-height: 1.5;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
-  
+  }
+  .container-footer {
+    margin-right: 120px;
   }
